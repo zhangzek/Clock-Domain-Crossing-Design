@@ -16,8 +16,6 @@ module src2dest#(
 wire [ DATAWIDTH - 1 : 0 ] src2dest_data;
 wire [ DATAWIDTH - 1  :0 ] src2dest_load;
 
-
-
 src_domain src_domain_inst(	.CLK 				(src_CLK		)	,
 							.RSTn				(RSTn			)	,
 							.src_data_in		(src_data_in	)	,
